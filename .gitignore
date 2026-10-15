@@ -1,0 +1,12 @@
+# Private state never belongs in this repo
+book/*
+!book/README.md
+risk/profile.md
+research/evidence-ledger.md
+*.env
+*.session
+*.session-journal
+
+# Python and macOS noise
+__pycache__/
+.DS_Store
